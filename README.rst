@@ -1,22 +1,41 @@
 prospector
 ==========
 
-.. image:: https://img.shields.io/pypi/v/prospector.svg
-   :target: https://pypi.python.org/pypi/prospector
+.. image:: https://img.shields.io/pypi/v/prospector2.svg
+   :target: https://pypi.python.org/pypi/prospector2
    :alt: Latest Version of Prospector
-.. image:: https://travis-ci.org/PyCQA/prospector.png?branch=master
-   :target: https://travis-ci.org/PyCQA/prospector
+.. image:: https://travis-ci.org/landscapeio/prospector2.png?branch=master
+   :target: https://travis-ci.org/landscapeio/prospector2
    :alt: Build Status
 .. image:: https://landscape.io/github/landscapeio/prospector/master/landscape.png?style=flat
    :target: https://landscape.io/github/landscapeio/prospector/master
    :alt: Code Health
-.. image:: https://img.shields.io/coveralls/PyCQA/prospector.svg?style=flat
+.. image:: https://img.shields.io/coveralls/landscapeio/prospector2.svg?style=flat
    :target: https://coveralls.io/r/PyCQA/prospector
    :alt: Test Coverage
-.. image:: https://readthedocs.org/projects/prospector/badge/?version=latest
-   :target: http://prospector.readthedocs.io/
+.. image:: https://readthedocs.org/projects/prospector2/badge/?version=latest
+   :target: http://prospector2.readthedocs.io/
    :alt: Documentation
 
+
+Read This First!
+----------------
+
+Prospector was originally written as part of https://landscape.io and has been moved across
+to the PyCQA group of python code analysis tools to enable it to have more maintainers and
+more frequent bug fixes and updates.
+
+The official version (which is still supported by myself, @carlio) is at https://github.com/PyCQA/prospector.
+
+This fork is to keep a version which will continue to run under Python2, as various dependencies and libraries
+that prospector uses or tests - such as pylint, astroid, and Django - have stopped supporting python2.
+
+This version of prospector will use older versions of those libraries in order to keep Python2 compatability,
+however, the main reason for this is to allow Landscape.io to continue checking python-2-based codebases. You
+are welcome to use this in your own projects and I will do my best to keep it working however the recommended
+use case in personal projects or your own CI setup is to migrate to using Python3 and the PyCQA version of prospector.
+
+Additionally this fork will not support Python3 but instead be only supporting Python2.
 
 About
 -----
