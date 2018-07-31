@@ -6,7 +6,7 @@ python:
 install:
   - "pip install --editable .[build_tools]"
 script:
-  - "nosetests -s --with-coverage --cover-inclusive --cover-package=prospector tests/"
+  - "nosetests -s --with-coverage --cover-inclusive --cover-package=prospector2 tests/"
   - "mv .coverage .coverage.x"
   - "pip install -e .[with_everything]"
   - "coverage run --parallel-mode prospector/run.py || true"
