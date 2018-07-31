@@ -8,7 +8,7 @@ class ProfileTestBase(TestCase):
     def setUp(self):
         self._profile_path = [
             os.path.join(os.path.dirname(__file__), 'profiles'),
-            os.path.join(os.path.dirname(__file__), '../../prospector/profiles/profiles')
+            os.path.join(os.path.dirname(__file__), '../../prospector2/profiles/profiles')
         ]
 
     def _file_content(self, name):
