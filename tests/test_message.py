@@ -1,5 +1,5 @@
 from unittest import TestCase
-from prospector.message import Location
+from prospector2.message import Location
 
 
 class LocationOrderTest(TestCase):

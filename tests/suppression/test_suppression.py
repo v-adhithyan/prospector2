@@ -1,6 +1,6 @@
 import os
 import unittest
-from prospector.suppression import get_noqa_suppressions
+from prospector2.suppression import get_noqa_suppressions
 
 
 class SuppressionTest(unittest.TestCase):

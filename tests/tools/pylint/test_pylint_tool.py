@@ -3,9 +3,9 @@ import os
 import sys
 from unittest import TestCase
 
-from prospector.config import ProspectorConfig
-from prospector.finder import find_python
-from prospector.tools.pylint import PylintTool
+from prospector2.config import ProspectorConfig
+from prospector2.finder import find_python
+from prospector2.tools.pylint import PylintTool
 
 if sys.version_info >= (3, 0):
     from unittest.mock import patch

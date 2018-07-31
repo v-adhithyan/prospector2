@@ -1,6 +1,6 @@
 import os
 from unittest import TestCase
-from prospector.profiles.profile import ProspectorProfile
+from prospector2.profiles.profile import ProspectorProfile
 
 
 class ProfileTestBase(TestCase):

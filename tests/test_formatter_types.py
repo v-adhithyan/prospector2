@@ -3,8 +3,8 @@ import datetime
 from unittest import TestCase
 
 import six
-from prospector.formatters import FORMATTERS
-from prospector.profiles.profile import ProspectorProfile
+from prospector2.formatters import FORMATTERS
+from prospector2.profiles.profile import ProspectorProfile
 
 
 class FormatterTypeTest(TestCase):

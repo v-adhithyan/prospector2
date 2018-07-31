@@ -1,6 +1,6 @@
 from unittest import TestCase
-from prospector import blender
-from prospector.message import Message, Location
+from prospector2 import blender
+from prospector2.message import Message, Location
 
 
 class TestBlendLine(TestCase):
