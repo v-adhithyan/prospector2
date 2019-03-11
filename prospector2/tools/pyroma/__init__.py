@@ -37,9 +37,9 @@ PYROMA_CODES = {
     ratings.LicenceClassifier: 'PYR14',
     ratings.ZipSafe: 'PYR15',
     ratings.SDist: 'PYR16',
-    ratings.PackageDocs: 'PYR17',
+    # ratings.PackageDocs: 'PYR17',
     ratings.ValidREST: 'PYR18',
-    ratings.BusFactor: 'PYR19',
+    # ratings.BusFactor: 'PYR19',
 }
 
 
