@@ -1,5 +1,5 @@
 include LICENSE
-include prospector/blender_combinations.yaml
-include prospector/profiles/profiles/*.yaml
+include prospector2/blender_combinations.yaml
+include prospector2/profiles/profiles/*.yaml
 include LICENCE
 include README.rst
